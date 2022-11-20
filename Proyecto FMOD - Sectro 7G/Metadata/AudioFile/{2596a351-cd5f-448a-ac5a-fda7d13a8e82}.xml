@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{2596a351-cd5f-448a-ac5a-fda7d13a8e82}">
+		<property name="assetPath">
+			<value>music/musicRadio_DontWantYou.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>40</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8a5f0142-6d55-45dd-913b-492e6923384c}</destination>
+		</relationship>
+	</object>
+</objects>
