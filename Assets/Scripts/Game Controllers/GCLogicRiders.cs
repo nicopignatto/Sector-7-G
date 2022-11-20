@@ -24,6 +24,12 @@ public class GCLogicRiders : MonoBehaviour
     [SerializeField] private Slider rider1;
     [SerializeField] private Slider rider2;
     [SerializeField] private Slider rider3;
+    [SerializeField] private Animator animatorAgujaMedidor1;
+    [SerializeField] private Animator animatorAgujaMedidor2;
+    [SerializeField] private Animator animatorAgujaMedidor3;
+    /*[SerializeField] private AudioSource audioSourceMedidor1;
+    [SerializeField] private AudioSource audioSourceMedidor2;
+    [SerializeField] private AudioSource audioSourceMedidor3;*/
 
     //variables privadas
     private bool sePuedeMoverElSlider1;
@@ -35,6 +41,7 @@ public class GCLogicRiders : MonoBehaviour
         sePuedeMoverElSlider1 = true;
         sePuedeMoverElSlider2 = true;
         sePuedeMoverElSlider3 = true;
+        //audioSourceMedidor1.Stop();
     }
     private void Update()
     {
@@ -62,29 +69,40 @@ public class GCLogicRiders : MonoBehaviour
         {
             sePuedeMoverElSlider1 = false;
             //print("El slider 1 se para");
+            //animatorAgujaMedidor1.StopPlayback();
+            //print("Se detiene la aguja 1");
+            animatorAgujaMedidor1.enabled = false;
+            //audioSourceMedidor1.Play();
         }
         else
         {
             sePuedeMoverElSlider1 = true;
             //print("El slider 1 se vuelve a mover");
+            //print("La aguja 1 continua moviendose");
+            animatorAgujaMedidor1.enabled = true;
+            //audioSourceMedidor1.Stop();
         }
 
         if (rider2.value > minRangoRider2 && rider2.value < maxRangoRider2)
         {
             sePuedeMoverElSlider2 = false;
+            animatorAgujaMedidor2.enabled = false;
         }
         else
         {
             sePuedeMoverElSlider2 = true;
+            animatorAgujaMedidor2.enabled = true;
         }
 
         if (rider3.value > minRangoRider3 && rider3.value < maxRangoRider3)
         {
             sePuedeMoverElSlider3 = false;
+            animatorAgujaMedidor3.enabled = false;
         }
         else
         {
             sePuedeMoverElSlider3 = true;
+            animatorAgujaMedidor3.enabled = true;
         }
     }
 }
