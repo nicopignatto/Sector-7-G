@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{7d33ee40-6b51-4439-b663-3d22bbefac24}">
+		<property name="assetPath">
+			<value>sfxs/Faders/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8a5f0142-6d55-45dd-913b-492e6923384c}</destination>
+		</relationship>
+	</object>
+</objects>

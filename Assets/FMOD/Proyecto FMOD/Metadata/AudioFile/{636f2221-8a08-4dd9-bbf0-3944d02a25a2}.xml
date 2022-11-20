@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{636f2221-8a08-4dd9-bbf0-3944d02a25a2}">
+		<property name="assetPath">
+			<value>sfxs/Faders/Fader_Down.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.84498866213151924</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8a5f0142-6d55-45dd-913b-492e6923384c}</destination>
+		</relationship>
+	</object>
+</objects>
