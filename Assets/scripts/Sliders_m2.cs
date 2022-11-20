@@ -7,17 +7,17 @@ public class Sliders_m2 : MonoBehaviour
 {
     [SerializeField] private Slider sld;
     [SerializeField]private GameObject guja;
-    //public float valor;
+    public float valor;
     // Start is called before the first frame update
     void Start()
     {
-        //valor=0;
+        valor=0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //guja.transform.eulerAngles= new Vector3(0,0,valor);   
+        guja.transform.eulerAngles= new Vector3(0,0,valor);   
     }
 
     public void MovSliders(float value){
