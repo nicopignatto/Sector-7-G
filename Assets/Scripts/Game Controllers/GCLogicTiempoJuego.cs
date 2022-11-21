@@ -76,7 +76,7 @@ public class GCLogicTiempoJuego : MonoBehaviour
     {
         if (restoTiempoPorRestar)
         {
-            sliderTiempoJuego.value -= cantRestaTiempo * 0.5f;
+            sliderTiempoJuego.value -= cantRestaTiempo * 0.01f;
         }
 
         /*if (restoTiempoPorError)
@@ -93,7 +93,7 @@ public class GCLogicTiempoJuego : MonoBehaviour
     {
         if (sumoTiempoPorAcierto)
         {
-            sliderTiempoJuego.value += cantSumaTiempo;
+            sliderTiempoJuego.value += cantSumaTiempo * 0.01f;
         }
     }
 
