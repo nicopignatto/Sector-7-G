@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{45ce6427-400f-4672-b777-9d2dcd0d08ab}">
+		<property name="assetPath">
+			<value>music/musicRadio_Gabi.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>51.023625000000003</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8a5f0142-6d55-45dd-913b-492e6923384c}</destination>
+		</relationship>
+	</object>
+</objects>

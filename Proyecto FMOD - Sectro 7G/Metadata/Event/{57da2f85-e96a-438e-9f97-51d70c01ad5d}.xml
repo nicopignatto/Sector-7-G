@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{57da2f85-e96a-438e-9f97-51d70c01ad5d}">
 		<property name="name">
-			<value>Voz Máquina</value>
+			<value>Voz</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -93,7 +93,7 @@
 	<object class="MixerBusPanner" id="{c4440167-ac47-4eee-a66e-59d3f3c08ba7}" />
 	<object class="MultiSound" id="{e946e5cc-6a8f-42a5-9987-a4a48393c28f}">
 		<property name="length">
-			<value>26</value>
+			<value>12</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{9ca204a7-57a7-494a-b95d-f1eeb2591127}</destination>
@@ -106,9 +106,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{dacd5f3a-86e6-49a0-ac8a-d8b3104ddbc0}">
-		<property name="volume">
-			<value>7</value>
-		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -127,7 +124,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>26</value>
+			<value>12</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{c831f3dd-9e91-4221-b538-32c37880c4d3}</destination>
@@ -174,9 +171,30 @@
 	<object class="MixerBusEffectChain" id="{2bf06e41-3b78-4aab-8946-e3b858dbbcda}">
 		<relationship name="effects">
 			<destination>{73b84b88-3f2d-48ad-a9e5-65c080895d5a}</destination>
+			<destination>{06a0de40-5353-4ca6-841b-b9ccc1dabdb3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8c8013a1-31be-4dc8-9e5d-cbf7b8f96409}" />
 	<object class="MixerBusFader" id="{6d958fbc-dd50-4c07-9590-235c26a01473}" />
 	<object class="MixerBusFader" id="{73b84b88-3f2d-48ad-a9e5-65c080895d5a}" />
+	<object class="MultibandEqEffect" id="{06a0de40-5353-4ca6-841b-b9ccc1dabdb3}">
+		<property name="filterTypeA">
+			<value>0</value>
+		</property>
+		<property name="filterTypeC">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>1184.88428</value>
+		</property>
+		<property name="frequencyC">
+			<value>983.313721</value>
+		</property>
+		<property name="qualityA">
+			<value>1.50955176</value>
+		</property>
+		<property name="gainC">
+			<value>12.9310331</value>
+		</property>
+	</object>
 </objects>

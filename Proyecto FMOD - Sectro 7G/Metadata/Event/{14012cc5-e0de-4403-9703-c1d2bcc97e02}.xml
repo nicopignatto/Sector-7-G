@@ -156,7 +156,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{6a4220f6-1be4-445a-9689-908a16a7e304}">
 		<property name="volume">
-			<value>-10.5</value>
+			<value>-26</value>
 		</property>
 		<property name="name">
 			<value>Audio 3</value>
@@ -187,7 +187,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{4310617a-e05a-4be6-971c-a6108286f30d}">
 		<property name="volume">
-			<value>-11</value>
+			<value>-26</value>
 		</property>
 		<property name="name">
 			<value>Audio 4</value>
@@ -212,7 +212,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{c4ae3e08-0f8c-4323-af95-1a7c83d7b4f0}">
 		<property name="volume">
-			<value>-13.5</value>
+			<value>-16.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -278,9 +278,14 @@
 	<object class="MixerBusEffectChain" id="{2f5e586d-8b76-4945-b872-b7bb83ce8d6d}">
 		<relationship name="effects">
 			<destination>{ed711414-acc3-4845-925e-3c11cda72343}</destination>
+			<destination>{20582229-7272-4d9d-93fb-622860c75e4f}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{ce25eb89-4885-4580-bd3b-5dfe15266824}" />
+	<object class="MixerBusPanner" id="{ce25eb89-4885-4580-bd3b-5dfe15266824}">
+		<property name="stereoPan">
+			<value>42</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{85d10978-3562-441a-a925-429bb7eee6a5}" />
 	<object class="MixerBusFader" id="{675a65ac-19fa-49ab-bf36-85c6902b18d9}" />
 	<object class="MixerBusFader" id="{78b40af1-5554-4611-b05a-19e78aeef809}" />
@@ -346,4 +351,27 @@
 	</object>
 	<object class="MixerBusFader" id="{087d5713-85ea-4036-be87-1a42863e4425}" />
 	<object class="MixerBusFader" id="{ed711414-acc3-4845-925e-3c11cda72343}" />
+	<object class="MultibandEqEffect" id="{20582229-7272-4d9d-93fb-622860c75e4f}">
+		<property name="filterTypeA">
+			<value>7</value>
+		</property>
+		<property name="filterTypeE">
+			<value>8</value>
+		</property>
+		<property name="frequencyA">
+			<value>162.124435</value>
+		</property>
+		<property name="frequencyE">
+			<value>5053.00928</value>
+		</property>
+		<property name="qualityA">
+			<value>0.644206941</value>
+		</property>
+		<property name="gainA">
+			<value>7.24137783</value>
+		</property>
+		<property name="gainE">
+			<value>-17.0689659</value>
+		</property>
+	</object>
 </objects>
