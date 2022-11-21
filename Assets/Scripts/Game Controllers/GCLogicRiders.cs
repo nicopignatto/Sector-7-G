@@ -73,6 +73,8 @@ public class GCLogicRiders : MonoBehaviour
             //print("Se detiene la aguja 1");
             animatorAgujaMedidor1.enabled = false;
             //audioSourceMedidor1.Play();
+            GCLogicTiempoJuego.SumoTiempoPorAcierto = true;
+            GCLogicTiempoJuego.RestoTiempoPorRestar = false;
         }
         else
         {
@@ -81,28 +83,39 @@ public class GCLogicRiders : MonoBehaviour
             //print("La aguja 1 continua moviendose");
             animatorAgujaMedidor1.enabled = true;
             //audioSourceMedidor1.Stop();
+            GCLogicTiempoJuego.SumoTiempoPorAcierto = false;
+            GCLogicTiempoJuego.RestoTiempoPorRestar = true;
+            //print("Se restan puntos por error en el slider 1");
         }
 
         if (rider2.value > minRangoRider2 && rider2.value < maxRangoRider2)
         {
             sePuedeMoverElSlider2 = false;
             animatorAgujaMedidor2.enabled = false;
+            GCLogicTiempoJuego.SumoTiempoPorAcierto = true;
+            GCLogicTiempoJuego.RestoTiempoPorRestar = false;
         }
         else
         {
             sePuedeMoverElSlider2 = true;
             animatorAgujaMedidor2.enabled = true;
+            GCLogicTiempoJuego.SumoTiempoPorAcierto = false;
+            GCLogicTiempoJuego.RestoTiempoPorRestar = true;
         }
 
         if (rider3.value > minRangoRider3 && rider3.value < maxRangoRider3)
         {
             sePuedeMoverElSlider3 = false;
             animatorAgujaMedidor3.enabled = false;
+            GCLogicTiempoJuego.SumoTiempoPorAcierto = true;
+            GCLogicTiempoJuego.RestoTiempoPorRestar = false;
         }
         else
         {
             sePuedeMoverElSlider3 = true;
             animatorAgujaMedidor3.enabled = true;
+            GCLogicTiempoJuego.SumoTiempoPorAcierto = false;
+            GCLogicTiempoJuego.RestoTiempoPorRestar = true;
         }
     }
 }
