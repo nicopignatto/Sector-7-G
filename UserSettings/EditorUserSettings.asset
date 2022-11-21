@@ -12,9 +12,12 @@ EditorUserSettings:
       value: 020004005d545109080a587012260844474e1979747d27612b2a486ae0b6356f
       flags: 0
     RecentlyUsedSceneGuid-2:
+<<<<<<< HEAD
       value: 5b03520051575f09545b5b7b147b094413151e2e742d7563797f4e65e1e5636c
       flags: 0
     RecentlyUsedSceneGuid-3:
+=======
+>>>>>>> parent of 73b8020 (Agrego cosas de kroks)
       value: 515250075c0c595e5f5a5e71122159444e4e4a2f7a7d7f602f284d66b4b76661
       flags: 0
     vcSharedLogLevel:
