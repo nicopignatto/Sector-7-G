@@ -34,7 +34,7 @@ public class botonController : MonoBehaviour
 
     IEnumerator PattersToResolve()
     {
-        for (int i = 0; i < 99; i++)
+        for (int i = 0; i < 99; i++) 
         {
             Execute();
             yield return new WaitUntil(() => isFinished == true);
