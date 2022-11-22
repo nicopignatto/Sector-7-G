@@ -1,50 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8487234267939988664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/GamePlay/Ambience/Voz M\xE1quina"
-  m_EditorClassIdentifier: 
-  Path: "event:/GamePlay/Ambience/Voz M\xE1quina"
-  Guid:
-    Data1: 1473916805
-    Data2: 1133439338
-    Data3: -682518625
-    Data4: 1571619084
-  Banks:
-  - {fileID: -7273474242279646332}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-7273474242279646332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: ../Sonidos FMOD/Proyecto FMOD/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638045449660000000
-  FileSizes: []
-  Exists: 1
 --- !u!114 &-6635380125749876728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64,7 +19,34 @@ MonoBehaviour:
     Data3: 585757314
     Data4: -371432507
   Banks:
-  - {fileID: -7273474242279646332}
+  - {fileID: 7039867505455545653}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5907269862869206506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Menu/Click Mouse
+  m_EditorClassIdentifier: 
+  Path: event:/Menu/Click Mouse
+  Guid:
+    Data1: 601134425
+    Data2: 1114275717
+    Data3: 1030867084
+    Data4: -1791662060
+  Banks:
+  - {fileID: 7039867505455545653}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -91,7 +73,7 @@ MonoBehaviour:
     Data3: -759102569
     Data4: 41863612
   Banks:
-  - {fileID: -7273474242279646332}
+  - {fileID: 7039867505455545653}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -118,7 +100,7 @@ MonoBehaviour:
     Data3: -614141562
     Data4: 864576894
   Banks:
-  - {fileID: -7273474242279646332}
+  - {fileID: 7039867505455545653}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -139,21 +121,126 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 8584656529795770873}
-  - {fileID: -7273474242279646332}
+  - {fileID: 268458028934634594}
+  - {fileID: 7039867505455545653}
   EditorEvents:
   - {fileID: -1266608407071717430}
   - {fileID: 3490257199528535689}
   - {fileID: -6635380125749876728}
-  - {fileID: -8487234267939988664}
   - {fileID: -4403030472821515933}
+  - {fileID: -5907269862869206506}
+  - {fileID: 2163123051231283392}
+  - {fileID: 3478968125692380447}
+  - {fileID: 899210093905976265}
+  - {fileID: 6950910281550311101}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -7273474242279646332}
+  - {fileID: 7039867505455545653}
   StringsBanks:
-  - {fileID: 8584656529795770873}
-  cacheTime: 638045449660000000
+  - {fileID: 268458028934634594}
+  cacheTime: 638046571880000000
   cacheVersion: 10
+--- !u!114 &268458028934634594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Build/Desktop/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../Sonidos FMOD/Proyecto FMOD - Sectro 7G/Build/Desktop/Master.strings.bank
+  Name: Build/Desktop/Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638046571880000000
+  FileSizes:
+  - Name: 
+    Value: 1188
+  Exists: 1
+--- !u!114 &899210093905976265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Menu/Pasar Mouse
+  m_EditorClassIdentifier: 
+  Path: event:/Menu/Pasar Mouse
+  Guid:
+    Data1: 1512553107
+    Data2: 1074395164
+    Data3: 634963087
+    Data4: -362140409
+  Banks:
+  - {fileID: 7039867505455545653}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2163123051231283392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GamePlay/Ambience/Voz
+  m_EditorClassIdentifier: 
+  Path: event:/GamePlay/Ambience/Voz
+  Guid:
+    Data1: 1473916805
+    Data2: 1133439338
+    Data3: -682518625
+    Data4: 1571619084
+  Banks:
+  - {fileID: 7039867505455545653}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12000
+--- !u!114 &3478968125692380447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Final Gatito/Animaci\xF3n Final"
+  m_EditorClassIdentifier: 
+  Path: "event:/Final Gatito/Animaci\xF3n Final"
+  Guid:
+    Data1: -1769029753
+    Data2: 1081186285
+    Data3: 594915498
+    Data4: 1726179059
+  Banks:
+  - {fileID: 7039867505455545653}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 15168
 --- !u!114 &3490257199528535689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,7 +260,7 @@ MonoBehaviour:
     Data3: 1863659403
     Data4: 380020175
   Banks:
-  - {fileID: -7273474242279646332}
+  - {fileID: 7039867505455545653}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -181,7 +268,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &8584656529795770873
+--- !u!114 &6950910281550311101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Menu/Music Theme Menu
+  m_EditorClassIdentifier: 
+  Path: event:/Menu/Music Theme Menu
+  Guid:
+    Data1: 772516557
+    Data2: 1294447115
+    Data3: -1285249102
+    Data4: 1776616420
+  Banks:
+  - {fileID: 7039867505455545653}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 126000
+--- !u!114 &7039867505455545653
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -191,13 +305,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Name: bank:/Build/Desktop/Master.bank
   m_EditorClassIdentifier: 
-  Path: ../Sonidos FMOD/Proyecto FMOD/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638045449660000000
-  FileSizes:
-  - Name: 
-    Value: 978
+  Path: ../Sonidos FMOD/Proyecto FMOD - Sectro 7G/Build/Desktop/Master.bank
+  Name: Build/Desktop/Master
+  StudioPath: bank:/Master
+  lastModified: 638046571880000000
+  FileSizes: []
   Exists: 1
