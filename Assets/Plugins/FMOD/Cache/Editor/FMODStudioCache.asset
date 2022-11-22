@@ -1,5 +1,131 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8487234267939988664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/GamePlay/Ambience/Voz M\xE1quina"
+  m_EditorClassIdentifier: 
+  Path: "event:/GamePlay/Ambience/Voz M\xE1quina"
+  Guid:
+    Data1: 1473916805
+    Data2: 1133439338
+    Data3: -682518625
+    Data4: 1571619084
+  Banks:
+  - {fileID: -7273474242279646332}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7273474242279646332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../Sonidos FMOD/Proyecto FMOD/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638045449660000000
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-6635380125749876728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GamePlay/Consola/SFX_Button
+  m_EditorClassIdentifier: 
+  Path: event:/GamePlay/Consola/SFX_Button
+  Guid:
+    Data1: -1256017021
+    Data2: 1124003173
+    Data3: 585757314
+    Data4: -371432507
+  Banks:
+  - {fileID: -7273474242279646332}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4403030472821515933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GamePlay/Ambience/Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/GamePlay/Ambience/Ambience
+  Guid:
+    Data1: 335621317
+    Data2: 1141104862
+    Data3: -759102569
+    Data4: 41863612
+  Banks:
+  - {fileID: -7273474242279646332}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 54272
+--- !u!114 &-1266608407071717430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GamePlay/Ambience/Radio
+  m_EditorClassIdentifier: 
+  Path: event:/GamePlay/Ambience/Radio
+  Guid:
+    Data1: -964901626
+    Data2: 1333973403
+    Data3: -614141562
+    Data4: 864576894
+  Banks:
+  - {fileID: -7273474242279646332}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 31000
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,10 +138,66 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
+  EditorBanks:
+  - {fileID: 8584656529795770873}
+  - {fileID: -7273474242279646332}
+  EditorEvents:
+  - {fileID: -1266608407071717430}
+  - {fileID: 3490257199528535689}
+  - {fileID: -6635380125749876728}
+  - {fileID: -8487234267939988664}
+  - {fileID: -4403030472821515933}
   EditorParameters: []
-  MasterBanks: []
-  StringsBanks: []
-  cacheTime: 0
+  MasterBanks:
+  - {fileID: -7273474242279646332}
+  StringsBanks:
+  - {fileID: 8584656529795770873}
+  cacheTime: 638045449660000000
   cacheVersion: 10
+--- !u!114 &3490257199528535689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GamePlay/Consola/SFX_Fade_OK
+  m_EditorClassIdentifier: 
+  Path: event:/GamePlay/Consola/SFX_Fade_OK
+  Guid:
+    Data1: 2019302508
+    Data2: 1274555286
+    Data3: 1863659403
+    Data4: 380020175
+  Banks:
+  - {fileID: -7273474242279646332}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8584656529795770873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../Sonidos FMOD/Proyecto FMOD/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638045449660000000
+  FileSizes:
+  - Name: 
+    Value: 978
+  Exists: 1
