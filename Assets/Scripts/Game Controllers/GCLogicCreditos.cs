@@ -27,7 +27,7 @@ public class GCLogicCreditos : MonoBehaviour
         {
             //print("Se cambia de escena");
             tiempoActualEscena = 0f;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(0);
 
         }
         tiempoActualEscena += Time.deltaTime;
