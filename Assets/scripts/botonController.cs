@@ -67,6 +67,8 @@ public class botonController : MonoBehaviour
         {
             isFinished = true;
             Debug.Log("Error");
+            //GCLogicTiempoJuego.RestoTiempoPorRestar = true;
+            //GCLogicTiempoJuego.SumoTiempoPorAcierto = false;
             IsOk = false;
         }
         else
@@ -77,9 +79,10 @@ public class botonController : MonoBehaviour
             {
                 isFinished = true;
                 Debug.Log("Correcto");
+                //GCLogicTiempoJuego.SumoTiempoPorAcierto = true;
+                //GCLogicTiempoJuego.RestoTiempoPorRestar = false;
                 AddDifficulty(currentPattern);
             }
-            
         }
         if (isFinished)
         {
